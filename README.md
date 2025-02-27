@@ -23,15 +23,6 @@ This tool collects **FSEvents, Spotlight, Unified Logs, user artifacts, system l
 ✔️ **Efficient & Modular Design** – Easily customizable for new forensic targets  
 ✔️ **Automated Cleanup** – Removes temporary files after data collection 🧹  
 
----
-
-## 📌 Requirements  
-
-Before running the tool, ensure you have the necessary dependencies installed:  
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
