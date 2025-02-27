@@ -1,4 +1,4 @@
-# 🚀 Mac Triage Tool 🖥️🔍  
+# Mac Triage Tool 🖥️🔍     
 
 ## 🔍 Overview  
 
