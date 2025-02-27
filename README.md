@@ -99,11 +99,11 @@ Processing_Details.txt
 
 ## 🛠️ Authors  
 
-- **[a1l4m](https://linkedin/in/a1l4m)** - Khaled Allam  
+- **[Khaled Allam](https://linkedin/in/a1l4m)** - aka a1l4m 
   - 🌐 [Site](https://a1l4m.github.io)  
   - 📧 [Email](mailto:khal3d.a1lam@gmail.com)  
 
-- **[M4shl3](https://www.linkedin.com/in/m4shl3)** - Ahmed Mahmoud  
+- **[Ahmed Mahmoud](https://www.linkedin.com/in/m4shl3)** - aka M4shl3  
   - 🔗 [blog](https://hackmd.io/@M4shl3) 
   - 📧 [Email](ahmedelsalkh627@gmail.com)
 
