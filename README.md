@@ -21,6 +21,7 @@ This tool collects **FSEvents, Spotlight, Unified Logs, user artifacts, system l
 ✔️ **Full File System Listing** – Generates a comprehensive inventory of All System Files.  
 ✔️ **Efficient & Modular Design** – Easily customizable for new forensic targets  
 ✔️ **Automated Compression & Cleanup** – Packs collected artifacts into a `.zip` file. Removes temporary files after data collection 🧹  
+✔️ **Compatible with Most macOS Versions** – Designed to function reliably across different macOS versions, despite variations in artifact locations.
 
 
 ---
