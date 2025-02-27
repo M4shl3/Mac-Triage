@@ -12,10 +12,10 @@ This tool collects **FSEvents, Spotlight, Unified Logs, user artifacts, system l
 ## ✨ Features  
 
 ✔️ **Forensic Data Collection** – Extracts key macOS artifacts, including:  
-      - **FSEvents, Unified Logs, Spotlight, KnowledgeC and .DS_Store**  
-      - **User artifacts** (.bash_history, .zsh_history, SSH keys, documents, desktops)  
-      - **System logs and preferences**  
-      - **Library artifacts** (Application Support, LaunchDaemons, Preferences)  
+- **FSEvents, Unified Logs, Spotlight, KnowledgeC and .DS_Store**  
+  - **User artifacts** (.bash_history, .zsh_history, SSH keys, documents, desktops)  
+- **System logs and preferences**  
+  - **Library artifacts** (Application Support, LaunchDaemons, Preferences)  
 
 ✔️ **Maintains macOS File Structure** – Ensures compatibility with forensic analysis tools 📂  
 ✔️ **Automated Compression** – Packs collected artifacts into a `.zip` file for easy transfer 🗜️  
