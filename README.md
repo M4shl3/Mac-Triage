@@ -44,9 +44,8 @@ git clone https://github.com/a1l4m/mac-triage-tool.git
 cd mac-triage-tool
 chmod +x mac-triage.sh
 sudo bash Mac_Triage.sh
-![Main](https://github.com/user-attachments/assets/8cad65d1-1906-448b-af54-280bd0e9f639)
 ```
-
+![Main](https://github.com/user-attachments/assets/8cad65d1-1906-448b-af54-280bd0e9f639)
 🔹 **Root permissions are required** for full forensic collection.  
 🔹 The script will collect system artifacts, store them in a structured directory, and compress everything into a `.zip` archive.  
 
