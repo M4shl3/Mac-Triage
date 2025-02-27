@@ -31,10 +31,10 @@ This tool collects **FSEvents, Spotlight, Unified Logs, user artifacts, system l
 Clone the repository and run the script:  
 
 ```bash
-git clone https://github.com/a1l4m/mac-triage-tool.git
-cd mac-triage-tool
-chmod +x mac-triage.sh
-sudo bash Mac_Triage.sh
+git clone https://github.com/a1l4m/Mac-Triage.git
+cd Mac-Triage
+chmod +x Mac-Triage.sh
+sudo bash Mac-Triage.sh
 ```
 ![Main](https://github.com/user-attachments/assets/8cad65d1-1906-448b-af54-280bd0e9f639)
 🔹 **Root permissions are required** for full forensic collection.  
