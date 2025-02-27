@@ -12,10 +12,10 @@ This tool collects **FSEvents, Spotlight, Unified Logs, user artifacts, system l
 ## ✨ Features  
 
 ✔️ **Forensic Data Collection** – Extracts key macOS artifacts, including:  
-   - **FSEvents, Unified Logs, Spotlight, KnowledgeC and .DS_Store**  
-   - **User artifacts** (.bash_history, .zsh_history, SSH keys, documents, desktops)  
-   - **System logs and preferences**  
-   - **Library artifacts** (Application Support, LaunchDaemons, Preferences)  
+      - **FSEvents, Unified Logs, Spotlight, KnowledgeC and .DS_Store**  
+      - **User artifacts** (.bash_history, .zsh_history, SSH keys, documents, desktops)  
+      - **System logs and preferences**  
+      - **Library artifacts** (Application Support, LaunchDaemons, Preferences)  
 
 ✔️ **Maintains macOS File Structure** – Ensures compatibility with forensic analysis tools 📂  
 ✔️ **Automated Compression** – Packs collected artifacts into a `.zip` file for easy transfer 🗜️  
@@ -55,7 +55,7 @@ sudo bash Mac_Triage.sh
 
 ## 📂 Output Structure  
 
-After execution, the tool will generate:  
+After execution, the output structure will be something like this:  
 
 ```
 📁 [Hostname_YMD_HMS].zip/
@@ -110,8 +110,13 @@ Processing_Details.txt
 
 ## 🛠️ Authors  
 
-- **a1l4m** - Khaled Allam  
-- **M4shl3** - Ahmed Mahmoud  
+- **[a1l4m](https://linkedin/in/a1l4m)** - Khaled Allam  
+  - 🌐 [Site](https://a1l4m.github.io)  
+  - 📧 [Email](mailto:khal3d.a1lam@gmail.com)  
+
+- **[M4shl3](https://www.linkedin.com/in/m4shl3)** - Ahmed Mahmoud  
+  - 🔗 [blog](https://hackmd.io/@M4shl3) 
+  - 📧 [Email](ahmedelsalkh627@gmail.com)
 
 ---
 
@@ -129,5 +134,4 @@ Contributions are welcome!
 
 ## ⚠️ Disclaimer  
 
-As we don't like to reinvent the wheel, some parts of our code and structure were taken from the open-source project by **Brimor Labs** named **Live Response Collection**.  
-We would like to give them credit for their contribution to the forensic community.
+As we don't like to reinvent the wheel, some parts of our code and structure were taken from the open-source project by **Brimor Labs** named **Live Response Collection**. We would like to give them credit for their contribution to the forensic community.
