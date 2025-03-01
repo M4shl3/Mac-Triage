@@ -1,4 +1,4 @@
-# Mac Triage Tool 🖥️🔍     
+# Mac Triage Tool 🖥️     
 
 ## 🔍 Overview  
 
@@ -9,7 +9,7 @@ This tool collects **FSEvents, Spotlight, Unified Logs, user artifacts, system l
 
 ---
 
-## ✨ Features  
+##  Features  
 
 ✔️ **Forensic Data Collection** – Extracts key macOS artifacts, including:  
 - **FSEvents, Unified Logs, Spotlight, KnowledgeC and .DS_Store**  
@@ -26,7 +26,7 @@ This tool collects **FSEvents, Spotlight, Unified Logs, user artifacts, system l
 
 ---
 
-## ⚡ Installation & Usage
+##  Installation & Usage
 
 Clone the repository and run the script:  
 
@@ -87,7 +87,7 @@ After execution, the output structure will be something like this:
 
 ---
 
-## 📝 Logging  
+##  Logging  
 
 All actions and errors are logged in:  
 
@@ -97,7 +97,7 @@ Processing_Details.txt
 
 ---
 
-## 🛠️ Authors  
+##  Authors  
 
 - **[Khaled Allam](https://linkedin/in/a1l4m)** - aka a1l4m 
   - 🌐 [Site](https://a1l4m.github.io)  
@@ -109,7 +109,7 @@ Processing_Details.txt
 
 ---
 
-## 🤝 Contributing  
+##  Contributing  
 
 Contributions are welcome!  
 
@@ -121,6 +121,9 @@ Contributions are welcome!
 
 ---
 
-## ⚠️ Disclaimer  
+##  Disclaimer  
 
 As we don't like to reinvent the wheel, some parts of our code and structure were taken from the open-source project by **Brimor Labs** named **Live Response Collection**. We would like to give them credit for their contribution to the forensic community.
+
+## License
+This project is open-source and available under the GPL License.
