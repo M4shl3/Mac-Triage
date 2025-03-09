@@ -26,7 +26,25 @@ do
 		echo -e "** File /Users/${i}/.ssh/known_hosts does not exist ***" | tee -a "${computername}/${computername}""_Processing_Details.txt"
 	fi
 	
-	
+	# Copying .Trash Directory, found under /Users/<username>/.Trash
+	if [ -d "/Users/${i}/.Trash" ]; then
+		# Copy .Trash Directory for each user
+		echo -e "\nCommand Run: cp -rf /Users/${i}/.Trash ${computername}/${cname}-Triage/Users/${i}/" | tee -a "${computername}/${computername}_Processing_Details.txt"
+		mkdir -p ${computername}/${cname}-Triage/Users/${i}/
+		cp -rf "/Users/${i}/.Trash"* ${computername}/${cname}-Triage/Users/${i}/
+	else
+		echo -e "** Directory /Users/${i}/.Trash does not exist ***" | tee -a "${computername}/${computername}_Processing_Details.txt"
+	fi
+
+	# Copying Deleted Users Directory, found under /Users/Deleted Users
+	if [ -d "/Users/Deleted Users" ]; then
+		echo -e "\nCommand Run: cp -rf /Users/Deleted Users ${computername}/${cname}-Triage/Users/Deleted-Users" | tee -a "${computername}/${computername}_Processing_Details.txt"
+		mkdir -p ${computername}/${cname}-Triage/Users/Deleted-Users
+		cp -rf "/Users/Deleted Users/"* ${computername}/${cname}-Triage/Users/Deleted-Users
+	else
+		echo -e "** Directory /Users/Deleted Users does not exist ***" | tee -a "${computername}/${computername}_Processing_Details.txt"
+	fi
+
 	#Library User Edit Start 
 	if [ -d "/Users/${i}/Library" ]; then
         echo -e "\nCommand Run: mkdir -p ${computername}/${cname}-Triage/Users/${i}/Library" | tee -a "${computername}/${computername}""_Processing_Details.txt"
@@ -103,7 +121,7 @@ do
 		echo -e "** Directory /Users/${i}/Library/ does not exist ***" | tee -a "${computername}/${computername}""_Processing_Details.txt"
 	fi
 	#Library User Edit End
-	
+
 	
 	#User Default Files Edit Start 
 	if [ -d "/Users/${i}/Desktop" ]; then
