@@ -64,10 +64,12 @@ After execution, the output structure will be something like this:
 │   │    │    ├── 📄 .DS_Store
 │   │    │    ├── 📁 .zsh_sessions/
 │   │    │    ├── 📁 .bash_sessions/
+│   │    │    ├── 📁 .Trash/
 │   │    │    ├── 📁 Documents/
 │   │    │    ├── 📁 Desktop/
 │   │    │    ├── 📁 Library/
 │   │    ├── 📁 User2/
+│   │    ├── 📁 Deleted Users/
 │   │── 📁 UnifiedLogs/
 │   │── 📁 Spotlight/
 │   │── 📁 FSEvents/
