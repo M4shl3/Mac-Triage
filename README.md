@@ -106,7 +106,7 @@ Processing_Details.txt
 
 - **[Ahmed Mahmoud](https://www.linkedin.com/in/m4shl3)** - aka M4shl3  
   - 🔗 [blog](https://hackmd.io/@M4shl3) 
-  - 📧 [Email](ahmedelsalkh627@gmail.com)
+  - 📧 [Email](mailto:ahmedelsalkh627@gmail.com)
 
 ---
 
